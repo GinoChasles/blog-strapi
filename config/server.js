@@ -8,7 +8,6 @@ module.exports = ({env}) => ({
   },
   cors: {
     enabled: true,
-    headers: "*",
     origin: ["https://lsf4all-strapi.herokuapp.com/", "http://localhost"]
   }
 });
