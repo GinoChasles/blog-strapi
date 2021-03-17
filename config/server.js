@@ -9,6 +9,6 @@ module.exports = ({env}) => ({
   cors: {
     enabled: true,
     headers: "*",
-    origin: ["https://blog-lsf4all.herokuapp.com/", "http://localhost"]
+    origin: ["https://lsf4all-strapi.herokuapp.com/", "http://localhost"]
   }
 });
