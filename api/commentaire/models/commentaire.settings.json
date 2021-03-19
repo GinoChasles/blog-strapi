@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commentaires",
+  "info": {
+    "name": "Commentaire"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "auteur": {
+      "type": "string"
+    },
+    "article": {
+      "model": "article",
+      "via": "commentaires"
+    }
+  }
+}
