@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "commentaires",
   "info": {
-    "name": "Commentaire"
+    "name": "Commentaire",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,7 +11,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "text": {
+    "texte": {
       "type": "text"
     },
     "auteur": {
