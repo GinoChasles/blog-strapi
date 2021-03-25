@@ -33,8 +33,8 @@
   },
   "writers": [
     {
-      "name": "Gino Chasles",
-      "email": "gino.chasles@gmail.com",
+      "name": "David Doe",
+      "email": "daviddoe@strapi.io",
       "picture": null
     },
     {
